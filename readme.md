@@ -1,4 +1,4 @@
-# 🖥️⌨️🖱️ [Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass) 💻🎧🎮
+# 🖥️ [Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass) 💻
 
 ## [Colt Steele](https://www.linkedin.com/in/coltsteele) (Developer and Instructor) 👨‍🏫
 
