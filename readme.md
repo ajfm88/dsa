@@ -4,6 +4,6 @@
 
 ### Source Code of each section of the Masterclass 👨🏽‍💻
 
-| Sect # |                                Section Name                                 |
-| :----: | :-------------------------------------------------------------------------: |
-|   02   | [Big O Notation](https://github.com/ajfm88/dsa/tree/main/02-big-o-notation) |
+| Sect # |                                Section Name                                 |                            Useful Links                                |
+| :----: | :-------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+|   02   | [Big O Notation](https://github.com/ajfm88/dsa/tree/main/02-big-o-notation) |[Performance Tracker](https://rithmschool.github.io/function-timer-demo)|
