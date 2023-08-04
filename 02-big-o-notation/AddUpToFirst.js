@@ -1,4 +1,4 @@
-function addUpTo(n) {
+function addUpToFirst(n) {
   let total = 0;
   for (let i = 1; i <= n; i++) {
     total += i;
@@ -6,4 +6,4 @@ function addUpTo(n) {
   return total;
 }
 
-console.log(addUpTo(6));
+console.log(addUpToFirst(6));
