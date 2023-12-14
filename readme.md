@@ -11,3 +11,4 @@
 |   04   |            [Problem Solving Approach](https://github.com/ajfm88/dsa/tree/main/07-recursion)            |   [Slides](https://cs.slides.com/colt_steele/problem-solving-patterns)   |
 |   05   |    [Problem Solving Patterns](https://github.com/ajfm88/dsa/tree/main/05-problem-solving-patterns)     |   [Slides](https://cs.slides.com/colt_steele/problem-solving-patterns)   |
 |   07   |                   [Recursion](https://github.com/ajfm88/dsa/tree/main/07-recursion)                    |   [Slides](https://cs.slides.com/colt_steele/searching-algorithms-22)    |
+|   10   |        [Searching Algorithms](https://github.com/ajfm88/dsa/tree/main/10-searching-algorithms)         |           [Slides](https://cs.slides.com/colt_steele/tries-21)           |
