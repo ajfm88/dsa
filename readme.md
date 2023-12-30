@@ -18,3 +18,5 @@
 |        |                                  Built-In JS Sort Documentation                                  | [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) |
 |   12   |           [Selection Sort](https://github.com/ajfm88/dsa/tree/main/12-selection-sort)            |              [Slides](https://cs.slides.com/colt_steele/elementary-sorting-algorithms)              |
 |        |                             Visualgo Sorting (Click Selection Sort)                              |                           [Link](https://visualgo.net/en/sorting?slide=1)                           |
+|   13   |           [Insertion Sort](https://github.com/ajfm88/dsa/tree/main/13-insertion-sort)            |              [Slides](https://cs.slides.com/colt_steele/elementary-sorting-algorithms)              |
+|        |                             Visualgo Sorting (Click Insertion Sort)                              |                           [Link](https://visualgo.net/en/sorting?slide=1)                           |
