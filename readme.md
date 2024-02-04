@@ -21,3 +21,5 @@
 |   13   |           [Insertion Sort](https://github.com/ajfm88/dsa/tree/main/13-insertion-sort)            |              [Slides](https://cs.slides.com/colt_steele/elementary-sorting-algorithms)              |
 |        |                             Visualgo Sorting (Click Insertion Sort)                              |                           [Link](https://visualgo.net/en/sorting?slide=1)                           |
 |   14   |                         Comparing Bubble, Selection, and Insertion Sort                          |          [Sorting Algos Animations](https://www.toptal.com/developers/sorting-algorithms)           |
+|   15   |               [Merge Sort](https://github.com/ajfm88/dsa/tree/main/15-merge-sort)                |             [Slides](https://cs.slides.com/colt_steele/intermediate-sorting-algorithms)             |
+|        |                             Visualgo: Sorting (click the merge tab)                              |                           [Link](https://visualgo.net/en/sorting?slide=1)                           |
