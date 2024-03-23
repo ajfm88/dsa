@@ -24,3 +24,5 @@
 |   15   |               [Merge Sort](https://github.com/ajfm88/dsa/tree/main/15-merge-sort)                |             [Slides](https://cs.slides.com/colt_steele/intermediate-sorting-algorithms)             |
 |        |                             Visualgo: Sorting (click the merge tab)                              |                           [Link](https://visualgo.net/en/sorting?slide=1)                           |
 |        |                                        Big-O Cheat Sheet                                         |                               [Link](https://www.bigocheatsheet.com)                                |
+|   18   | [Data Structures Introduction](https://github.com/ajfm88/dsa/tree/main/18-data-structures-intro) |                   [Slides](https://cs.slides.com/colt_steele/es2015-class-syntax)                   |
+|        |                                       MDN: JS Class Guide                                        |          [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)          |
