@@ -26,3 +26,5 @@
 |        |                                        Big-O Cheat Sheet                                         |                               [Link](https://www.bigocheatsheet.com)                                |
 |   18   | [Data Structures Introduction](https://github.com/ajfm88/dsa/tree/main/18-data-structures-intro) |                   [Slides](https://cs.slides.com/colt_steele/es2015-class-syntax)                   |
 |        |                                       MDN: JS Class Guide                                        |          [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)          |
+|   19   |      [Singly Linked Lists](https://github.com/ajfm88/dsa/tree/main/19-singly-linked-lists)       |                   [Slides](https://cs.slides.com/colt_steele/singly-linked-lists)                   |
+|        |                                     Visualgo - Linked Lists                                      |                            [Link](https://visualgo.net/en/list?slide=1)                             |
