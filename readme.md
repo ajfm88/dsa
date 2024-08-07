@@ -17,4 +17,6 @@
 |  05   |                [How Do Linked Lists Work?](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)                 |
 |  06   | [Leetcode Problem #876 - Middle of the Linked List](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list) |
 |  07   |         [Leetcode Problem #141 - Linked List Cycle](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)         |
-|  08   |    [Leetcode Problem #234 - Palindrome Linked Lis](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)     |
+|  08   |    [Leetcode Problem #234 - Palindrome Linked List](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)    |
+|  09   |     [Intro to Depth-First Search & Breadth-First Search](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-dfs-bfs)     |
+|  10   |           [The Structure of DFS (Depth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/dfs-structure)           |
