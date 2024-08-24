@@ -21,3 +21,4 @@
 |  09   |     [Intro to Depth-First Search & Breadth-First Search](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-dfs-bfs)     |
 |  10   |           [The Structure of DFS (Depth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/dfs-structure)           |
 |  11   |                [Leetcode Problem #733 - Flood Fill](https://www.commonsensedev.com/jay-vs-leetcode/flood-fill)                |
+|  12   |                 [Part 1: Leetcode Problem #695 - Max Area of Island](https://vimeo.com/1000919240/b34857879c)                 |
