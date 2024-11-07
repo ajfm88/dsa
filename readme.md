@@ -30,3 +30,4 @@
 |  18   |      [Leetcode Problem #200 - Number of Islands BFS Edition](https://www.commonsensedev.com/jay-vs-leetcode/number-of-islands-bfs)       |
 |  19   |                        [Shortest Path with BFS](https://www.commonsensedev.com/jay-vs-leetcode/shortest-path-bfs)                        |
 |  20   | [Leetcode Problem #1091 - Shortest Path in Binary Matrix](https://www.commonsensedev.com/jay-vs-leetcode/shortest-path-in-binary-matrix) |
+|  21   |                 [The Sliding Window Technique](https://www.commonsensedev.com/jay-vs-leetcode/sliding-window-technique)                  |
