@@ -8,26 +8,27 @@
 
 ## Jay Vs. Leetcode
 
-| Ep. # |                                                        Description or Video Title                                                        |
-| :---: | :--------------------------------------------------------------------------------------------------------------------------------------: |
-|  01   |                             [Leetcode Problem #1 - Two Sum](https://www.commonsensedev.com/jay-vs-leetcode)                              |
-|  02   |                      [Why Are Hash Tables Fast?](https://www.commonsensedev.com/jay-vs-leetcode/hash-table-basics)                       |
-|  03   |                  [Leetcode Problem #242 - Valid Anagram](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)                   |
-|  04   |            [Leetcode Problem #206 - Reverse Linked List](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list)             |
-|  05   |                      [How Do Linked Lists Work?](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)                      |
-|  06   |      [Leetcode Problem #876 - Middle of the Linked List](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list)       |
-|  07   |              [Leetcode Problem #141 - Linked List Cycle](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)               |
-|  08   |         [Leetcode Problem #234 - Palindrome Linked List](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)          |
-|  09   |          [Intro to Depth-First Search & Breadth-First Search](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-dfs-bfs)           |
-|  10   |                [The Structure of DFS (Depth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/dfs-structure)                 |
-|  11   |                     [Leetcode Problem #733 - Flood Fill](https://www.commonsensedev.com/jay-vs-leetcode/flood-fill)                      |
-|  12   |                      [Part 1: Leetcode Problem #695 - Max Area of Island](https://vimeo.com/1000919240/b34857879c)                       |
-|  13   |                      [Part 2: Leetcode Problem #695 - Max Area of Island](https://vimeo.com/1003327830/af266b8901)                       |
-|  14   |                           [Leetcode Problem #200 - Number of Islands](https://vimeo.com/1006050478/a09f6cd13c)                           |
-|  15   |                       [Leetcode Problem #112 - Path Sum](https://www.commonsensedev.com/jay-vs-leetcode/path-sum)                        |
-|  16   |            [The Structure of BFS (Breadth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/the-structure-of-bfs)            |
-|  17   |             [Leetcode Problem #733 - Flood Fill BFS Edition](https://www.commonsensedev.com/jay-vs-leetcode/flood-fill-bfs)              |
-|  18   |      [Leetcode Problem #200 - Number of Islands BFS Edition](https://www.commonsensedev.com/jay-vs-leetcode/number-of-islands-bfs)       |
-|  19   |                        [Shortest Path with BFS](https://www.commonsensedev.com/jay-vs-leetcode/shortest-path-bfs)                        |
-|  20   | [Leetcode Problem #1091 - Shortest Path in Binary Matrix](https://www.commonsensedev.com/jay-vs-leetcode/shortest-path-in-binary-matrix) |
-|  21   |                 [The Sliding Window Technique](https://www.commonsensedev.com/jay-vs-leetcode/sliding-window-technique)                  |
+| Ep. # |                                                                        Description or Video Title                                                                        |
+| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  01   |                                             [Leetcode Problem #1 - Two Sum](https://www.commonsensedev.com/jay-vs-leetcode)                                              |
+|  02   |                                      [Why Are Hash Tables Fast?](https://www.commonsensedev.com/jay-vs-leetcode/hash-table-basics)                                       |
+|  03   |                                  [Leetcode Problem #242 - Valid Anagram](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)                                   |
+|  04   |                            [Leetcode Problem #206 - Reverse Linked List](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list)                             |
+|  05   |                                      [How Do Linked Lists Work?](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)                                      |
+|  06   |                      [Leetcode Problem #876 - Middle of the Linked List](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list)                       |
+|  07   |                              [Leetcode Problem #141 - Linked List Cycle](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)                               |
+|  08   |                         [Leetcode Problem #234 - Palindrome Linked List](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)                          |
+|  09   |                          [Intro to Depth-First Search & Breadth-First Search](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-dfs-bfs)                           |
+|  10   |                                [The Structure of DFS (Depth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/dfs-structure)                                 |
+|  11   |                                     [Leetcode Problem #733 - Flood Fill](https://www.commonsensedev.com/jay-vs-leetcode/flood-fill)                                      |
+|  12   |                                      [Part 1: Leetcode Problem #695 - Max Area of Island](https://vimeo.com/1000919240/b34857879c)                                       |
+|  13   |                                      [Part 2: Leetcode Problem #695 - Max Area of Island](https://vimeo.com/1003327830/af266b8901)                                       |
+|  14   |                                           [Leetcode Problem #200 - Number of Islands](https://vimeo.com/1006050478/a09f6cd13c)                                           |
+|  15   |                                       [Leetcode Problem #112 - Path Sum](https://www.commonsensedev.com/jay-vs-leetcode/path-sum)                                        |
+|  16   |                            [The Structure of BFS (Breadth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/the-structure-of-bfs)                            |
+|  17   |                             [Leetcode Problem #733 - Flood Fill BFS Edition](https://www.commonsensedev.com/jay-vs-leetcode/flood-fill-bfs)                              |
+|  18   |                      [Leetcode Problem #200 - Number of Islands BFS Edition](https://www.commonsensedev.com/jay-vs-leetcode/number-of-islands-bfs)                       |
+|  19   |                                        [Shortest Path with BFS](https://www.commonsensedev.com/jay-vs-leetcode/shortest-path-bfs)                                        |
+|  20   |                 [Leetcode Problem #1091 - Shortest Path in Binary Matrix](https://www.commonsensedev.com/jay-vs-leetcode/shortest-path-in-binary-matrix)                 |
+|  21   |                                 [The Sliding Window Technique](https://www.commonsensedev.com/jay-vs-leetcode/sliding-window-technique)                                  |
+|  22   | [Leetcode Problem #1456 - Maximum Number of Vowels in Substring of Given Length](https://www.commonsensedev.com/jay-vs-leetcode/max-number-of-vowels-in-fixed-substring) |
