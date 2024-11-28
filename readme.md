@@ -33,3 +33,4 @@
 |  21   |                                 [The Sliding Window Technique](https://www.commonsensedev.com/jay-vs-leetcode/sliding-window-technique)                                  |
 |  22   | [Leetcode Problem #1456 - Maximum Number of Vowels in Substring of Given Length](https://www.commonsensedev.com/jay-vs-leetcode/max-number-of-vowels-in-fixed-substring) |
 |  23   |  [Leetcode Problem #3 - Longest Substring Without Repeating Characters](https://www.commonsensedev.com/jay-vs-leetcode/longest-substring-without-repeating-characters)   |
+|  24   |                                 [Introduction to Binary Numbers](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-binary-numbers)                                 |
