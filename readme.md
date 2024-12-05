@@ -34,3 +34,4 @@
 |  22   | [Leetcode Problem #1456 - Maximum Number of Vowels in Substring of Given Length](https://www.commonsensedev.com/jay-vs-leetcode/max-number-of-vowels-in-fixed-substring) |
 |  23   |  [Leetcode Problem #3 - Longest Substring Without Repeating Characters](https://www.commonsensedev.com/jay-vs-leetcode/longest-substring-without-repeating-characters)   |
 |  24   |                                 [Introduction to Binary Numbers](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-binary-numbers)                                 |
+|  25   |                                      [Leetcode Problem #67 - Add Binary](https://www.commonsensedev.com/jay-vs-leetcode/add-binary)                                      |
