@@ -35,3 +35,4 @@
 |  23   |  [Leetcode Problem #3 - Longest Substring Without Repeating Characters](https://www.commonsensedev.com/jay-vs-leetcode/longest-substring-without-repeating-characters)   |
 |  24   |                                 [Introduction to Binary Numbers](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-binary-numbers)                                 |
 |  25   |                                      [Leetcode Problem #67 - Add Binary](https://www.commonsensedev.com/jay-vs-leetcode/add-binary)                                      |
+|  26   |                                  [Convert Decimal to Binary](https://www.commonsensedev.com/jay-vs-leetcode/convert-decimal-to-binary)                                   |
