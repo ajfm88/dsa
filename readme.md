@@ -37,3 +37,4 @@
 |  25   |                                      [Leetcode Problem #67 - Add Binary](https://www.commonsensedev.com/jay-vs-leetcode/add-binary)                                      |
 |  26   |                                  [Convert Decimal to Binary](https://www.commonsensedev.com/jay-vs-leetcode/convert-decimal-to-binary)                                   |
 |  27   |                                   [Leetcode Problem #190 - Reverse Bits](https://www.commonsensedev.com/jay-vs-leetcode/reverse-bits)                                    |
+|  28   |                                [Introduction to Bit Manipulation](https://www.commonsensedev.com/jay-vs-leetcode/intro-bit-manipulation)                                 |
