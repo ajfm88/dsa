@@ -39,3 +39,4 @@
 |  27   |                                   [Leetcode Problem #190 - Reverse Bits](https://www.commonsensedev.com/jay-vs-leetcode/reverse-bits)                                    |
 |  28   |                                [Introduction to Bit Manipulation](https://www.commonsensedev.com/jay-vs-leetcode/intro-bit-manipulation)                                 |
 |  29   |                               [Leetcode Problem #191 - Number of 1 Bits](https://www.commonsensedev.com/jay-vs-leetcode/number-of-1-bits)                                |
+|  30   |                               [Leetcode Problem #461 - Hamming Distance](https://www.commonsensedev.com/jay-vs-leetcode/hamming-distance)                                |
