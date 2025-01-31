@@ -42,3 +42,4 @@
 |  30   |                               [Leetcode Problem #461 - Hamming Distance](https://www.commonsensedev.com/jay-vs-leetcode/hamming-distance)                                |
 |  31   |                                  [Leetcode Problem #136 - Single Number](https://www.commonsensedev.com/jay-vs-leetcode/single-number)                                   |
 |  32   |                                       [Introduction to Bitmasks](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-bitmasks)                                       |
+|  33   |                                        [More About Bitmasks](https://www.commonsensedev.com/jay-vs-leetcode/more-about-bitmasks)                                         |
