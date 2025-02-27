@@ -46,3 +46,4 @@
 |  34   |                                 [Intro to Top-Down Thinking](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-top-down-thinking)                                  |
 |  35   |                                         [Top-Down Array Sum](https://www.commonsensedev.com/jay-vs-leetcode/top-down-array-sum)                                          |
 |  36   |                                         [Top-Down Array Max](https://www.commonsensedev.com/jay-vs-leetcode/top-down-array-max)                                          |
+|  37   |                               [Leetcode Problem #118 - Pascal’s Triangle](https://www.commonsensedev.com/jay-vs-leetcode/pascals-triangle)                               |
