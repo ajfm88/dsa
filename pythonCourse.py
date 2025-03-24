@@ -102,3 +102,80 @@ print(x % y)    # Output: 1 (7 divided by 2 is 3, with a remainder of 1)
 
 # Exponentiation ** Raises the first operand to the power of the second operand
 print (x ** y)  # Output: 49 ( 7 raised to the power of 2 is 49, 7*7 = 49)
+
+# Shorthand Operators
+count = 0
+count = count + 1
+count += 2
+print(count) # Output: 3
+
+# Boolean OR
+a, b, c = False, False, True
+print(a or b or c) # Output: True
+
+# Boolean AND
+a = True
+b = False
+print(a and b)  # Output: False
+
+# Boolean Negation
+a = True
+b = False
+print(not a)  # Output: False
+print(not b)  # Output: True
+
+# Introduction to Functions
+def greet():
+    print("Hello World!")
+
+def say_goodbye():
+    print("Goodbye!")
+
+# Function Declaration
+print(n)    # error because n is not defined yet
+n = 10
+
+print_number(5) # error because the function print_number is not defined yet
+def print_number(n):
+    print(n)
+
+# Parameters
+def greet(name):    # this function takes a parameter called name
+    msg = "Hello, " + name
+    print(msg)
+
+greet("Alice")  # This function call has "Alice" as the argument
+
+# Multiple Parameters
+def greet(name, greeting):
+    message = greeting + " " + name
+    print(message)
+
+greet("Alice", "Hello") # This will print "Hello Alice"
+
+# Return Statement
+def add(x, y):
+    return x + y
+
+result = add(3, 5)
+print(result)   # This will print 8
+
+# Type Hints
+# to add a type hint for a parameter, you add a colon after the parameter 
+# name and then the type of data you expect.
+# to add a return type, you add a right arrow (->) after the closing
+# parenthesis and then the type of data you expect to return (before
+# the colon).
+def add(x: int, y: int) -> int:
+    return x + y
+
+# Scope
+n = 10
+print(n)            # Output: 10
+
+def print_number(n):
+    print(n)
+
+print_number(11)    # Output: 11
+
+print(n)            # Output: 10
