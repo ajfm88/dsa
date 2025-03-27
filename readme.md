@@ -50,3 +50,4 @@
 |  38   |                               [Leetcode Problem #509 - Fibonacci Number](https://www.commonsensedev.com/jay-vs-leetcode/fibonacci-number)                                |
 |  39   |                                    [Overlapping Subproblems](https://www.commonsensedev.com/jay-vs-leetcode/overlapping-subproblems)                                     |
 |  40   |                                    [Dynamic Programming with Memoization](https://www.commonsensedev.com/jay-vs-leetcode/memoization)                                    |
+|  41   |                              [Leetcode Problem #198 - House Robber (Part One)](https://www.commonsensedev.com/jay-vs-leetcode/house-robber)                              |
