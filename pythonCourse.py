@@ -290,3 +290,76 @@ else:
 balance = 500
 if balance > 0 and balance < 1000:
     print("Balance is between 0 and 1000.")
+
+
+# Truthy and Falsy
+# It's possible to use non-Boolean values to execute conditional statements.
+# Falsy values are False, None, 0, 0.0, "", [], most other empty collections.
+msg = ""
+if msg:
+    print("Message is not empty.")  # This will not be printed
+
+msg = "Hello World!"
+if msg:
+    print("Message is not empty.")  # This will be printed
+
+
+# While Loops
+i = 0
+while i < 5:
+    print("I love Python!")
+    i += 1
+
+
+#  While Loops Counting
+n = 0
+while n <= 9:
+    print(n)
+    n += 1
+
+
+# While Loops Multiples
+n = 10
+while n <= 90:
+    print(n)
+    n += 10
+
+
+# For Loops
+n = 0
+while n < 10:
+    print(n)
+    n += 1
+
+for i in range(10):
+    print(i)
+
+
+# For Loops Start
+i = 2
+while i < 5:
+    print(i)
+    i += 1
+
+for i in range (2, 5):
+    print(i)
+
+
+# For Loops Step
+i = 0
+while i < 10:
+    print(i)
+    i += 2
+#          start, stop, step
+for i in range(0, 10, 2):
+    print(i)
+
+
+# For Loops Reverse
+i = 10
+while i > 0:
+    print(i)
+    i -= 1
+
+for i in range(10, 0, -1):
+    print(i)
