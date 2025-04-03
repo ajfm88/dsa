@@ -363,3 +363,21 @@ while i > 0:
 
 for i in range(10, 0, -1):
     print(i)
+
+
+# Nested Loops
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+
+
+# Control Flow
+# break: exits the loop immeditely.
+# continue: Skips the remaining code inside the loop for the current iteration and moves to the next iteration.
+# pass: Acts as a placeholder and does nothing. We cannot have empty loops, so we use pass to avoid errors.
+# It can also be used in conditional statements and functions.
+
+
+# Length Function
+my_str = "NeetCode"
+print(len(my_str))  # Output: 8
