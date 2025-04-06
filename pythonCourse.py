@@ -2,22 +2,27 @@
 print("Hello World")
 
 
+
 # Printing Text.
 print("My favorite quote is \"To be or not to be.\"")
 print('My favorite quote is "To be or not to be."')
+
 
 
 # Code Errors.
 print("Can someone please add a closing parenthesis?")
 
 
+
 # Comments.
+
 
 
 # Variable Declaration.
 message = "This string is stored in a variable."
 print(message)
 print(message)
+
 
 
 # Variable Naming
@@ -30,6 +35,7 @@ print(capital_of_france)
 print(capital_of_germany)
 
 
+
 # Naming Conventions
 python_creation_date = "February, 1991"
 java_creation_date = "May, 1995"
@@ -40,6 +46,7 @@ print(java_creation_date)
 print(javascript_creation_date)
 
 
+
 # Reassigning Variables
 message = "The first message"
 print(message)
@@ -47,6 +54,7 @@ message = "The second message"
 print(message)
 message = "The third message"
 print(message)
+
 
 
 # Multiple Assignments
@@ -60,6 +68,7 @@ print(msg2)
 print(msg3)
 print(msg4)
 print(msg5)
+
 
 
 # Variable Types
@@ -76,10 +85,12 @@ print(type(name))
 print(type(my_list))
 
 
+
 # Dynamic Typing
 variable = 10         # int type
 variable = "Hello"    # str type
 variable = [1, 2, 3]  # list type
+
 
 
 # Type Casting
@@ -90,13 +101,16 @@ pi = int(pi)
 print(pi)
 
 
+
 # Type Errors
 message = "Hello"
 message = int(message)  # gives an error
 
 
+
 # Empty Variable
 var = None    # like null, but in Python
+
 
 
 # Arithmetic Operators
@@ -105,6 +119,7 @@ print(x + y)  # Output: 9
 print(x - y)  # Output: -3
 print(x * y)  # Output: 18
 print(x / y)  # Output: 0.5
+
 
 
 # More Operators
@@ -119,6 +134,7 @@ print(x % y)    # Output: 1 (7 divided by 2 is 3, with a remainder of 1)
 print (x ** y)  # Output: 49 ( 7 raised to the power of 2 is 49, 7*7 = 49)
 
 
+
 # Shorthand Operators
 count = 0
 count = count + 1
@@ -126,15 +142,18 @@ count += 2
 print(count) # Output: 3
 
 
+
 # Boolean OR
 a, b, c = False, False, True
 print(a or b or c) # Output: True
+
 
 
 # Boolean AND
 a = True
 b = False
 print(a and b)  # Output: False
+
 
 
 # Boolean Negation
@@ -144,12 +163,14 @@ print(not a)  # Output: False
 print(not b)  # Output: True
 
 
+
 # Introduction to Functions
 def greet():
     print("Hello World!")
 
 def say_goodbye():
     print("Goodbye!")
+
 
 
 # Function Declaration
@@ -161,12 +182,14 @@ def print_number(n):
     print(n)
 
 
+
 # Parameters
 def greet(name):    # this function takes a parameter called name
     msg = "Hello, " + name
     print(msg)
 
 greet("Alice")  # This function call has "Alice" as the argument
+
 
 
 # Multiple Parameters
@@ -177,12 +200,14 @@ def greet(name, greeting):
 greet("Alice", "Hello") # This will print "Hello Alice"
 
 
+
 # Return Statement
 def add(x, y):
     return x + y
 
 result = add(3, 5)
 print(result)   # This will print 8
+
 
 
 # Type Hints
@@ -195,6 +220,7 @@ def add(x: int, y: int) -> int:
     return x + y
 
 
+
 # Scope
 n = 10
 print(n)            # Output: 10
@@ -205,6 +231,7 @@ def print_number(n):
 print_number(11)    # Output: 11
 
 print(n)            # Output: 10
+
 
 
 # Global vs Local Scope
@@ -222,6 +249,7 @@ def print_global_variable() -> None:
     print(n)
 
 print_global_variable()        # This will print 10
+
 
 
 # Default Arguments
@@ -244,9 +272,11 @@ def greet(greeting="Hello", name):
     print(greeting + ", " + name + "!")
 
 
+
 # Comparison Operators
 x, y = 3, 5
 print(x == y)   # Output: False
+
 
 
 # If Statements
@@ -257,6 +287,7 @@ if account_balance < 0:
 print("This is always printed.")
 
 
+
 # If Statement Scope
 # A conditional statement does not create its own scope
 if True:
@@ -265,12 +296,14 @@ if True:
 print(message)  # This will print "Hello"
 
 
+
 # If-Else Statements
 balance = 100
 if balance < 10:
     print("Account is overdrawn.")
 else:
     print("Account is in good standing.")
+
 
 
 # Else-If Statements
@@ -285,11 +318,13 @@ else:
     print("Your account balance is healthy.")   # This will execute
 
 
+
 # Logic Condition
 # or, and & not
 balance = 500
 if balance > 0 and balance < 1000:
     print("Balance is between 0 and 1000.")
+
 
 
 # Truthy and Falsy
@@ -304,11 +339,13 @@ if msg:
     print("Message is not empty.")  # This will be printed
 
 
+
 # While Loops
 i = 0
 while i < 5:
     print("I love Python!")
     i += 1
+
 
 
 #  While Loops Counting
@@ -318,11 +355,13 @@ while n <= 9:
     n += 1
 
 
+
 # While Loops Multiples
 n = 10
 while n <= 90:
     print(n)
     n += 10
+
 
 
 # For Loops
@@ -335,6 +374,7 @@ for i in range(10):
     print(i)
 
 
+
 # For Loops Start
 i = 2
 while i < 5:
@@ -343,6 +383,7 @@ while i < 5:
 
 for i in range (2, 5):
     print(i)
+
 
 
 # For Loops Step
@@ -355,6 +396,7 @@ for i in range(0, 10, 2):
     print(i)
 
 
+
 # For Loops Reverse
 i = 10
 while i > 0:
@@ -365,10 +407,12 @@ for i in range(10, 0, -1):
     print(i)
 
 
+
 # Nested Loops
 for i in range(1, 4):
     for j in range(1, 4):
         print(i, j)
+
 
 
 # Control Flow
@@ -378,6 +422,116 @@ for i in range(1, 4):
 # It can also be used in conditional statements and functions.
 
 
+
 # Length Function
 my_str = "NeetCode"
 print(len(my_str))  # Output: 8
+
+
+
+# String Indexing
+my_str = "Hello"
+print(my_str[0])    # Output: H
+print(my_str[1])    # Output: e
+print(my_str[2])    # Output: l
+print(my_str[3])    # Output: l
+print(my_str[4])    # Output: o
+
+
+
+# String Looping
+my_string = "Hello, World!"
+
+lenght = len(my_string) # Output: 13
+
+for i in range(len(lenght)):
+    print(my_string[i])
+
+
+
+# String Looping Shorthand
+my_string = "Hello, World!"
+
+for i in range(len(my_string)):
+    print(i, my_string[i])
+# The output would be:
+# 0     H
+# 1     e
+# 2     l
+# etc. etc.
+
+# There is a shorter way to do it
+my_string = "Hello, World!"
+
+for char in my_string:
+    print(char)
+# The output would be:
+# H
+# e
+# l
+# etc.
+
+
+
+# String Concatenation
+str1 = "Hello, "
+str2 = "World!"
+print(str1 + str2)  # Output: Hello, World!
+
+
+
+# String Slicing Part 1
+my_string = "Hello, World!"
+
+start, end = 1, 5
+
+print(my_string[start:end]) # Output: ello
+
+
+
+# String Slicing Part 2
+my_string = "NeetCode"
+print(my_string[:3])    # Output: Nee
+print(my_string[0:3])   # Output: Nee
+
+print(my_string[4:])    # Output: Code
+print(my_string[4:8])   # Output: Code
+
+print(my_string[:])     # Output: NeetCode
+print(my_string)        # Output: NeetCode
+
+
+
+# Reversing a String
+my_string = "Hello"
+print(my_string[::-1])  # Output: olleH
+
+my_string = "Hello"
+start, end, step = 1, 4, 1
+
+print(my_string[start:end])     # Output: ell
+print(my_string[start:end:-1])  # Output: lle
+
+
+
+# Strings are Immutable
+message = "I will never change."
+message[0] = "X"    # This will cause an error
+
+before_second = message[:1] # "I"
+after_second = message[2:]  # "will never change."
+
+new_message = before_second + after_second
+
+
+
+# String Formatting
+name = "Alice"
+age = 25
+
+msg = "Hello, {}. You are {} years old.".format(name,age)
+print(msg)  # Output: Hello, Alice. You are 25 years old.
+
+# We can also use f-strings
+msg = f"Hello, {name}. You are {age} years old."
+print(msg)  # Output: Hello, Alice. You are 25 years old.
