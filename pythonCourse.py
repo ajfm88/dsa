@@ -535,3 +535,132 @@ print(msg)  # Output: Hello, Alice. You are 25 years old.
 # We can also use f-strings
 msg = f"Hello, {name}. You are {age} years old."
 print(msg)  # Output: Hello, Alice. You are 25 years old.
+
+
+
+# Intro to Lists
+# A list is a collection of items that are stored in a specific order.
+my_list = [1, 2, 3]
+
+print(len(my_list))     # Output: 3
+
+print(my_list[0])     # Output: 1
+print(my_list[1])     # Output: 2
+print(my_list[2])     # Output: 3
+
+my_list = ["I", "am", "a", "list"]
+
+print(my_list[0])     # Output: I
+print(my_list[1])     # Output: am
+print(my_list[2])     # Output: a
+print(my_list[3])     # Output: list
+
+my_list = [1, "Hello", 3.14, True]
+
+
+
+# List Operations
+my_list = [1, 2, 3]
+
+if len(my_list) > 0:
+    print("The list is not empty")
+else:
+    print("The list is empty")
+
+if my_list:
+    print("The list is not empty")
+else:
+    print("The list is empty")
+
+if 2 in my_list:
+    print("2 is in the list")
+else:
+    print("2 is not in the list")
+
+if 4 not in my_list:
+    print("4 is not in the list")
+else:
+    print("4 is not in the list")
+
+
+
+# List Looping
+# By using the length of the list:
+my_list = [1, 2, 3, 4, 5]
+
+lenght = len(my_list)
+
+for i in range(lenght):
+    print(my_list[i])
+
+# Or by using the in operator:
+my_list = [1, 2, 3, 4, 5]
+
+for element in my_list:
+    print(element)
+
+
+
+# List Functions
+my_list = [1, 2, 3, 4, 5]
+
+print(sum(my_list))     # Output: 15
+print(min(my_list))     # Output: 1
+print(max(my_list))     # Output: 5
+
+
+
+# List Append
+my_list = [1, 2, 3]
+
+print(my_list)      # Output: [1, 2, 3]
+
+my_list.append(4)
+
+print(my_list)      # Output: [1, 2, 3, 4]
+
+
+
+# List Pop
+my_list = [1, 2, 3]
+
+my_list.pop()
+print(my_list)      # Output: [1, 2]
+
+my_list = [1, 2, 3]
+
+my_list.pop(0)
+print(my_list)      # Output: [2, 3]
+
+my_list.pop(0)
+print(my_list)      # Output: [3]
+
+
+
+# List Find
+my_list = [1, 2, 3, 4, 5, 3]
+
+print(my_list.index(3))     # Output: 2
+# The above code snippet will print the index
+# of the first occurence of the element 3.
+# If the element is not present in the list,
+# a ValueError will be raised
+
+
+
+# List Slicing
+my_list = [1, 2, 3, 4, 5]
+
+print(my_list[1:3])     # Output: [2, 3]
+
+print(my_list[:3])      # Output: [1, 2, 3]
+
+print(my_list[2:])      # Output: [3, 4, 5]
+
+print(my_list[::-1])    # Output: [5, 4, 3, 2, 1]
+
+print(my_list[-1])      # Output: 5
+
+print(my_list[-2])      # Output: 4
+
+print(my_list[-3])      # Output: 3
