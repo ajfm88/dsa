@@ -664,3 +664,92 @@ print(my_list[-1])      # Output: 5
 print(my_list[-2])      # Output: 4
 
 print(my_list[-3])      # Output: 3
+
+
+
+# Tuples
+# Tuples are very similar to lists, but they have one key difference:
+# they are immutable. Once a tuple is created, it cannot be changed.
+my_tuple = (4, 5, 6)
+
+print(my_tuple)         # Output: (4, 5, 6)
+
+# We can index it like a list:
+my_tuple = (4, 5, 6)
+
+print(my_tuple[0])      # Output: 4
+print(my_tuple[1])      # Output: 5
+print(my_tuple[2])      # Output: 6
+
+# We can also use slicing:
+my_tuple = (4, 5, 6)
+
+print(my_tuple[1:])     # Output: (5, 6)
+
+# Since we cannot modify a tuple, th following code will raise an error
+my_tuple = (4, 5, 6)
+
+my_tuple[0] = 1     # Raises an error
+
+
+
+# Intro to Sets
+# A set is like a list, but they are unordered.
+# If order is important, you shoulduse a list.
+# A set can only contain unique eleemnts.
+# If you try to add a duplicate element, it will be ignored.
+my_set = {1, 2, 3}
+
+print(my_set)       # Output: {1, 2, 3}
+
+my_set = {3, 2, 1}
+
+print(my_set)       # Output: {1, 2, 3}
+
+my_set = set()
+
+my_set.add(1)
+my_set.add(2)
+my_set.add(1)
+
+print(my_set)       # Output: {1, 2}
+
+
+
+# Set Operations
+# We can remove elements from a set using the remove() function.
+my_set = {1, 2, 3}
+
+my_set.remove(2)
+
+print(my_set)       # Output: {1, 3}
+
+my_set.remove(4)    # Raises KeyError
+
+# Just like with lists, we can loop over elements within a set using
+# for loops. The diference is that we cannot accese elements by index
+# because sets are unordered. The order that we loop over a set is not
+# guaranteed.
+my_set = {1, 2, 3}
+
+for element in my_set:
+    print(element)
+
+# We can convert a list into a set by passing the list into the set()
+# function. We can then convert the set back into a list by passing it
+# into the list() function. This is an easy way to remove duplicates
+# from a list.
+my_list = [1, 2, 3, 4, 5, 1, 2, 5]
+
+my_set = set(my_list)
+
+print(my_set)       # Output: {1, 2, 3, 4, 5}
+
+my_list_no_duplicates = list(my_set)
+
+# We can use the in keyword to check if an element is present in a set.
+
+my_set = {"Cat", "Dog", "Mouse"}
+
+contains_cat = "Cat" in my_set      # True
+contains_lion = "Lion" in my_set    # False
