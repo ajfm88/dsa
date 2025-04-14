@@ -753,3 +753,112 @@ my_set = {"Cat", "Dog", "Mouse"}
 
 contains_cat = "Cat" in my_set      # True
 contains_lion = "Lion" in my_set    # False
+
+
+
+# Intro to Dictionaries
+# Used to store key:value pairs.
+my_dict = {
+    "Alice": 25,
+    "Bob": 30,
+    "Charlie": 35
+}
+
+my_dict = {}
+
+my_dict["Alice"] = 25
+my_dict["Bob"] = 30
+my_dict["Charlie"] = 35
+
+
+
+# Dict Operations
+# Dictionaries cannot contain duplicate keys, just like sets
+
+my_dict = {"a":1, "b":2, "c":3}
+
+print(my_dict["a"])     # Output: 1
+
+my_dict["a"] = 4
+
+print(my_dict["a"])     # Output: 4
+
+# The keys have to be unique, but the values can be duplicates
+my_dict = {"a":1, "b":1, "c":1}
+
+your_dict = {
+    "a":10,
+    "apple":12,
+    "bat":7
+}
+# Print the dictionary itself
+print(your_dict)
+# Print the value of the key "a"
+print(your_dict["a"])
+# Print True or False depending on whether the key "d" is
+# in the dictionary
+print("d" in your_dict)
+# Reassign the value of the key "a" to 4
+your_dict["a"] = 4
+# Print the dictionary again
+print(your_dict)
+
+
+
+# Dict Looping
+# You can use len() to get the length of a dictionary
+my_dict = {"a":1, "b":2, "c":3}
+print(len(my_dict))     # Output: 3
+
+# But just like with sets, the length won't help the user loop over it
+my_dict = {"a":1, "b":2, "c":3}
+
+for key in my_dict:
+    value = my_dict[key]
+    print(key, value)
+
+# We can also use the items() method to loop over both the keys and values
+my_dict = {"a":1, "b":2, "c":3}
+
+for key, value in my_dict.items():
+    print(key, value)
+
+
+
+# Dict Remove
+my_dict = {"a":1, "b":2, "c":3}
+
+my_dict.pop("a")
+
+print(my_dict)      # Output: {"b": 2, "c": 3}
+
+my_dict.pop("d")    # Raises KeyError
+
+# If you do not want to worry about KeyErrors, you can use the second
+# argument of the pop() function. This argument is the default 
+# value that will be returned if th key doesn't exist
+
+my_dict = {"a":1, "b":2, "c":3}
+
+value = my_dict.pop("d", 0)     # Returns 0, no error occurs
+
+# You can also use the del keyword to remove a key:value pair
+my_dict = {"a":1, "b":2, "c":3}
+
+del my_dict["a"]
+
+
+
+# Dict Values
+# Another way of iterating over a dictionary is using the values() function
+my_dict = {"a":1, "b":2, "c":3}
+
+for value in my_dict.values():
+    print(value)
+
+# A useful case for this is when we want to convert the values of a dictionary into a list.
+my_dict = {"a":1, "b":2, "c":3}
+
+value = list(my_dict.values())
+
+print(values)       # Output: [1, 2, 3]
