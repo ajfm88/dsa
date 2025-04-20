@@ -1,3 +1,4 @@
+'''
 # Hello World.
 print("Hello World")
 
@@ -920,3 +921,4 @@ except ZeroDivisionError:
     print("Error: Division by zero!")
 except Exception as error:
     print("An error occurred: ", error)
+'''

@@ -1,10 +1,15 @@
 # 🖥️ Data Structures & Algorithms 💻
 
-|   Source   |                             Description or Video Explanation                              |
-| :--------: | :---------------------------------------------------------------------------------------: |
-|  LeetCode  |    [Leetcode Problem #1 - Two Sum](https://leetcode.com/problems/two-sum/description)     |
-| Gordon Zhu | [Leetcode Problem #1 - Two Sum (JavaScript)](https://www.youtube.com/watch?v=isGKzmwDREg) |
-| Gordon Zhu |   [Leetcode Problem #1 - Two Sum (Python)](https://www.youtube.com/watch?v=54yUPn3M0ds)   |
+| Prob. # |                       LeetCode Problem                       |
+| :-----: | :----------------------------------------------------------: |
+|   001   | [Two Sum](https://leetcode.com/problems/two-sum/description) |
+
+## Gordon Zhu
+
+| Ep. # |                                Description or Video Title                                 |
+| :---: | :---------------------------------------------------------------------------------------: |
+| 01-2  |   [Leetcode Problem #1 - Two Sum (Python)](https://www.youtube.com/watch?v=54yUPn3M0ds)   |
+| 01-2  | [Leetcode Problem #1 - Two Sum (JavaScript)](https://www.youtube.com/watch?v=isGKzmwDREg) |
 
 ## Jay Vs. Leetcode
 
