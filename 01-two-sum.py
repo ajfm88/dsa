@@ -26,3 +26,22 @@ Only one valid answer exists.
  
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 '''
+
+'''Brute force implementation'''
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i in range(0, len(nums)):
+            for j in range(i + 1, len(nums)):
+                if (nums[i] + nums[j] ==target):
+                    return [i, j]
+
+'''
+Time complexity:
+n = 11
+10, 9, 8..., 0
+average = 5
+n * (n/2)
+(n^2)/2
+O(n^2)
+'''
