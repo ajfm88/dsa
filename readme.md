@@ -1,8 +1,9 @@
 # 🖥️ Data Structures & Algorithms 💻
 
-| Prob. # |                 LeetCode Problem                 | Solution #1                                | Solution #2                                           |
-| :-----: | :----------------------------------------------: | ------------------------------------------ | ----------------------------------------------------- |
-|   001   | [Two Sum](https://leetcode.com/problems/two-sum) | [Gordon Zhu](https://youtu.be/54yUPn3M0ds) | [Jay Wengrow](https://www.commonsensedev.com/two-sum) |
+| Prob. # |                       LeetCode Problem                       | Solution #1                                | Solution #2                                                                 |
+| :-----: | :----------------------------------------------------------: | ------------------------------------------ | --------------------------------------------------------------------------- |
+|   001   |       [Two Sum](https://leetcode.com/problems/two-sum)       | [Gordon Zhu](https://youtu.be/54yUPn3M0ds) | [Jay Wengrow](https://www.commonsensedev.com/two-sum)                       |
+|   242   | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [NeetCode](https://youtu.be/9UtInBqnCgA)   | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram) |
 
 ## Jay Vs. Leetcode
 
