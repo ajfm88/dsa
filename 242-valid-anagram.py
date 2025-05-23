@@ -42,3 +42,42 @@ class Solution:
             return True
         else:
             return False
+        
+'''
+Jay Wengrow solution:
+
+Creating a histogram:
+1. Check to see if element is in hash table.
+2. If not, then add it as a key, with 1 as the value.
+3. If there is, increment corresponding value by 1.
+
+"state" -> "taste"
+{"s": 1, "t": 2, "a": 1, "e": 1}
+
+Anagram:
+
+1. Create histogram from both strings
+2. Return whether two histograms are equal
+
+Big O Notation:
+
+O(N)
+'''
+
+def is_anagram(string_1, string_2):
+    hash_table_1 = {}
+    hash_table_2 = {}
+
+    for char in string_1:
+        if char not in hash_table_1:
+            hash_table_1[char] = 1
+        else:
+            hash_table_1[char] += 1
+
+    for char in string_2:
+        if char not in hash_table_2:
+            hash_table_2[char] = 1
+        else:
+            hash_table_2[char] += 1
+
+    return hash_table_1 == hash_table_2
