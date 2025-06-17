@@ -1,11 +1,12 @@
 # 🖥️ Data Structures & Algorithms 💻
 
-| Prob. # |                             LeetCode Problem                             | Solution #1                                    | Solution #2                                                                       |
-| :-----: | :----------------------------------------------------------------------: | ---------------------------------------------- | --------------------------------------------------------------------------------- |
-|   001   |             [Two Sum](https://leetcode.com/problems/two-sum)             | [Gordon Zhu](https://youtu.be/54yUPn3M0ds)     | [Jay Wengrow](https://www.commonsensedev.com/two-sum)                             |
-|   242   |       [Valid Anagram](https://leetcode.com/problems/valid-anagram)       | [NeetCode](https://youtu.be/9UtInBqnCgA)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)       |
-|   000   |                        How Do Linked Lists Work?                         | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)  |
-|   206   | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [NeetCode](https://youtu.be/G0_I-ZF0S38)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list) |
+| Prob. # |                                   LeetCode Problem                                   | Solution #1                                    | Solution #2                                                                             |
+| :-----: | :----------------------------------------------------------------------------------: | ---------------------------------------------- | --------------------------------------------------------------------------------------- |
+|   001   |                   [Two Sum](https://leetcode.com/problems/two-sum)                   | [Gordon Zhu](https://youtu.be/54yUPn3M0ds)     | [Jay Wengrow](https://www.commonsensedev.com/two-sum)                                   |
+|   242   |             [Valid Anagram](https://leetcode.com/problems/valid-anagram)             | [NeetCode](https://youtu.be/9UtInBqnCgA)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)             |
+|   000   |                              How Do Linked Lists Work?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)        |
+|   206   |       [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)       | [NeetCode](https://youtu.be/G0_I-ZF0S38)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list)       |
+|   876   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [NeetCode](https://youtu.be/A2_ldqM4QcY)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list) |
 
 ## Jay Vs. Leetcode
 
