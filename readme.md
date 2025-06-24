@@ -3,22 +3,17 @@
 | Prob. # |                                   LeetCode Problem                                   | Solution #1                                    | Solution #2                                                                             |
 | :-----: | :----------------------------------------------------------------------------------: | ---------------------------------------------- | --------------------------------------------------------------------------------------- |
 |   001   |                   [Two Sum](https://leetcode.com/problems/two-sum)                   | [Gordon Zhu](https://youtu.be/54yUPn3M0ds)     | [Jay Wengrow](https://www.commonsensedev.com/two-sum)                                   |
+|   000   |                              Why Are Hash Tables Fast?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/hash-table-basics)         |
 |   242   |             [Valid Anagram](https://leetcode.com/problems/valid-anagram)             | [NeetCode](https://youtu.be/9UtInBqnCgA)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)             |
-|   000   |                              How Do Linked Lists Work?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)        |
 |   206   |       [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)       | [NeetCode](https://youtu.be/G0_I-ZF0S38)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list)       |
+|   000   |                              How Do Linked Lists Work?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)        |
 |   876   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [NeetCode](https://youtu.be/A2_ldqM4QcY)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list) |
+|   141   |         [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)         | [NeetCode](https://youtu.be/gBTe7lFR3vc)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)         |
 
 ## Jay Vs. Leetcode
 
 | Ep. # |                                                                        Description or Video Title                                                                        |
 | :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  01   |                                                 [Leetcode Problem #1 - Two Sum](https://www.commonsensedev.com/two-sum)                                                  |
-|  02   |                                      [Why Are Hash Tables Fast?](https://www.commonsensedev.com/jay-vs-leetcode/hash-table-basics)                                       |
-|  03   |                                  [Leetcode Problem #242 - Valid Anagram](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)                                   |
-|  04   |                            [Leetcode Problem #206 - Reverse Linked List](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list)                             |
-|  05   |                                      [How Do Linked Lists Work?](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)                                      |
-|  06   |                      [Leetcode Problem #876 - Middle of the Linked List](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list)                       |
-|  07   |                              [Leetcode Problem #141 - Linked List Cycle](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)                               |
 |  08   |                         [Leetcode Problem #234 - Palindrome Linked List](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)                          |
 |  09   |                          [Intro to Depth-First Search & Breadth-First Search](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-dfs-bfs)                           |
 |  10   |                                [The Structure of DFS (Depth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/dfs-structure)                                 |
