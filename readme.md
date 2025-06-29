@@ -1,6 +1,6 @@
 # 🖥️ Data Structures & Algorithms 💻
 
-| Prob. # |                                   LeetCode Problem                                   | Solution #1                                    | Solution #2                                                                             |
+| Prob. # |                                   LeetCode Problem                                   | Video #1                                       | Video #2                                                                                |
 | :-----: | :----------------------------------------------------------------------------------: | ---------------------------------------------- | --------------------------------------------------------------------------------------- |
 |   001   |                   [Two Sum](https://leetcode.com/problems/two-sum)                   | [Gordon Zhu](https://youtu.be/54yUPn3M0ds)     | [Jay Wengrow](https://www.commonsensedev.com/two-sum)                                   |
 |   000   |                              Why Are Hash Tables Fast?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/hash-table-basics)         |
@@ -9,12 +9,12 @@
 |   000   |                              How Do Linked Lists Work?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)        |
 |   876   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [NeetCode](https://youtu.be/A2_ldqM4QcY)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list) |
 |   141   |         [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)         | [NeetCode](https://youtu.be/gBTe7lFR3vc)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)         |
+|   234   |    [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)    | [NeetCode](https://youtu.be/yOzXms1J6Nk)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)    |
 
 ## Jay Vs. Leetcode
 
 | Ep. # |                                                                        Description or Video Title                                                                        |
 | :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|  08   |                         [Leetcode Problem #234 - Palindrome Linked List](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)                          |
 |  09   |                          [Intro to Depth-First Search & Breadth-First Search](https://www.commonsensedev.com/jay-vs-leetcode/intro-to-dfs-bfs)                           |
 |  10   |                                [The Structure of DFS (Depth-First Search)](https://www.commonsensedev.com/jay-vs-leetcode/dfs-structure)                                 |
 |  11   |                                     [Leetcode Problem #733 - Flood Fill](https://www.commonsensedev.com/jay-vs-leetcode/flood-fill)                                      |
