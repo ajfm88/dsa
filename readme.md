@@ -1,16 +1,17 @@
 # 🖥️ Data Structures & Algorithms 💻
 
-| Prob. # |                                   LeetCode Problem                                   | Video #1                                       | Video #2                                                                                |
-| :-----: | :----------------------------------------------------------------------------------: | ---------------------------------------------- | --------------------------------------------------------------------------------------- |
-|   001   |                   [Two Sum](https://leetcode.com/problems/two-sum)                   | [Gordon Zhu](https://youtu.be/54yUPn3M0ds)     | [Jay Wengrow](https://www.commonsensedev.com/two-sum)                                   |
-|   000   |                              Why Are Hash Tables Fast?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/hash-table-basics)         |
-|   242   |             [Valid Anagram](https://leetcode.com/problems/valid-anagram)             | [NeetCode](https://youtu.be/9UtInBqnCgA)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)             |
-|   206   |       [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)       | [NeetCode](https://youtu.be/G0_I-ZF0S38)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list)       |
-|   000   |                              How Do Linked Lists Work?                               | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)        |
-|   876   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | [NeetCode](https://youtu.be/A2_ldqM4QcY)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list) |
-|   141   |         [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)         | [NeetCode](https://youtu.be/gBTe7lFR3vc)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)         |
-|   234   |    [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)    | [NeetCode](https://youtu.be/yOzXms1J6Nk)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)    |
-|   217   |        [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)        | [Gordon Zhu](https://youtu.be/2-dNs4f-2gA)     | [NeetCode](https://youtu.be/3OamzN90kPg)                                                |
+| Prob. # |                                        LeetCode Problem                                        | Video #1                                       | Video #2                                                                                |
+| :-----: | :--------------------------------------------------------------------------------------------: | ---------------------------------------------- | --------------------------------------------------------------------------------------- |
+|   001   |                        [Two Sum](https://leetcode.com/problems/two-sum)                        | [Gordon Zhu](https://youtu.be/54yUPn3M0ds)     | [Jay Wengrow](https://www.commonsensedev.com/two-sum)                                   |
+|   000   |                                   Why Are Hash Tables Fast?                                    | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/hash-table-basics)         |
+|   242   |                  [Valid Anagram](https://leetcode.com/problems/valid-anagram)                  | [NeetCode](https://youtu.be/9UtInBqnCgA)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/valid-anagram)             |
+|   206   |            [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)            | [NeetCode](https://youtu.be/G0_I-ZF0S38)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/reverse-linked-list)       |
+|   000   |                                   How Do Linked Lists Work?                                    | [Michael Sambol](https://youtu.be/F8AbOfQwl1c) | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-basics)        |
+|   876   |      [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)      | [NeetCode](https://youtu.be/A2_ldqM4QcY)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/middle-of-the-linked-list) |
+|   141   |              [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)              | [NeetCode](https://youtu.be/gBTe7lFR3vc)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/linked-list-cycle)         |
+|   234   |         [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)         | [NeetCode](https://youtu.be/yOzXms1J6Nk)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)    |
+|   217   |             [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)             | [Gordon Zhu](https://youtu.be/2-dNs4f-2gA)     | [NeetCode](https://youtu.be/3OamzN90kPg)                                                |
+|   121   | [Best Time To Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Gordon Zhu](https://youtu.be/-AIoQOM6FlY)     | [NeetCode](https://youtu.be/1pkOgXD63yU)                                                |
 
 ## Jay Vs. Leetcode
 
