@@ -63,7 +63,6 @@ Big O Notation:
 
 O(N)
 '''
-
 def is_anagram(string_1, string_2):
     hash_table_1 = {}
     hash_table_2 = {}
@@ -81,3 +80,56 @@ def is_anagram(string_1, string_2):
             hash_table_2[char] += 1
 
     return hash_table_1 == hash_table_2
+
+'''
+Gordon Zhu’s two-map implementation
+'''
+from collections import Counter
+
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        
+        s_map = Counter(s)
+        t_map = Counter(t)
+
+        for letter in s_map:
+            if s_map[letter] != t_map[letter]:
+                return False
+            
+        return True
+
+'''
+Gordon Zhu’s one-map implementation
+'''
+from collections import Counter
+
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        
+        s_map = Counter(s)
+
+        for letter in t:
+            s_map[letter] -= 1
+
+        for count in s_map.values():
+            if (count != 0):
+                return False
+            
+        return True
+    
+'''
+Gordon Zhu’s sorting approach implementation
+'''
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
+        
+        sorted_s = sorted(s)
+        sorted_t = sorted(t)
+
+        return sorted_s == sorted_t
