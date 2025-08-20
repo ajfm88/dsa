@@ -12,6 +12,7 @@
 |   234   |         [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)         | [NeetCode](https://youtu.be/yOzXms1J6Nk)       | [Jay Wengrow](https://www.commonsensedev.com/jay-vs-leetcode/palindrome-linked-list)    |
 |   217   |             [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)             | [Gordon Zhu](https://youtu.be/2-dNs4f-2gA)     | [NeetCode](https://youtu.be/3OamzN90kPg)                                                |
 |   121   | [Best Time To Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Gordon Zhu](https://youtu.be/-AIoQOM6FlY)     | [NeetCode](https://youtu.be/1pkOgXD63yU)                                                |
+|   383   |                    [Ransom Note](https://leetcode.com/problems/ransom-note)                    | [Gordon Zhu](https://youtu.be/m7AC7zCJgyk)     | [Greg Hogg](https://youtu.be/i3bvxJyUB40)                                               |
 
 ## Jay Vs. Leetcode
 
