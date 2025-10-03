@@ -15,6 +15,7 @@
 |   383   |                    [Ransom Note](https://leetcode.com/problems/ransom-note)                    | [Gordon Zhu](https://youtu.be/m7AC7zCJgyk)     | [Greg Hogg](https://youtu.be/i3bvxJyUB40)                                               |
 |  1672   |        [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)        | [Gordon Zhu](https://youtu.be/oeMLFxVYrLs)     | [John Leonardo](https://youtu.be/yfhqs0fJw_I)                                           |
 |   412   |                      [Fizz Buzz](https://leetcode.com/problems/fizz-buzz)                      | [Gordon Zhu](https://youtu.be/pf0a-lCEDh0)     | [Deepti Talesra](https://youtu.be/GfVoxKFpDV0)                                          |
+|   167   |          [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)          | [Gordon Zhu](https://youtu.be/C3PFKlDeB7M)     | [NeetCode](https://youtu.be/cQ1Oz4ckceM)                                                |
 
 ## Jay Vs. Leetcode
 
