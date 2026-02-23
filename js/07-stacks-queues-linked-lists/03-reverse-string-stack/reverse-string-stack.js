@@ -9,7 +9,7 @@ function reverseStringStack(str) {
 
   let reversedString = "";
 
-  while (!stack.isEmpty) {
+  while (!stack.isEmpty()) {
     reversedString += stack.pop();
   }
 

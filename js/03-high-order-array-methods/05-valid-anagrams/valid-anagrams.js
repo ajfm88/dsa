@@ -1,4 +1,5 @@
 function validAnagrams(str1, str2) {
+  if (str1.length !== str2.length) return false;
   const freqCount1 = str1.split("").reduce((acc, char) => {
     acc[char] = (acc[char] || 0) + 1;
     return acc;

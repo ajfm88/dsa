@@ -12,6 +12,8 @@ function anagramGrouping(words) {
       anagramGroups.set(sortedChars, [word]);
     }
   }
+
+  return anagramGroups.getValues();
 }
 
 module.exports = anagramGrouping;

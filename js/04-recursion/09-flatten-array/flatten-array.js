@@ -9,7 +9,7 @@ function flattenArray(arr) {
     }
   }
 
-  return;
+  return result;
 }
 
 module.exports = flattenArray;
