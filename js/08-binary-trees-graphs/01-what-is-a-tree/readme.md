@@ -12,7 +12,7 @@ The nodes have relationships to each other. These relationships are represented 
 
 Let's look more into the terminology of trees.
 
-<img src="./images/tree2.png" width="500" alt="" />
+<img src="../../assets/images/tree2.png" width="500" alt="" />
 
 - **Nodes**: Each node in a tree contains data or information and can have zero or more child nodes. Nodes are connected by edges, representing the relationships between them.
 
@@ -26,7 +26,7 @@ Let's look more into the terminology of trees.
 
 ### Depth & Height
 
-<img src="./images/treeheightdepth.png" width="500" alt="" />
+<img src="../../assets/images/treeheightdepth.png" width="500" alt="" />
 
 The terms `depth` and `height` are used to define the structure of a tree. They help us understand how deep or how tall the tree is and provide insight into it's characteristics.
 
