@@ -9,14 +9,23 @@ var topKFrequent = function(nums, k) {
         acc[num] = (acc[num] ?? 0) + 1;
         return acc;
     }, {})
-    // create an array of pairs from the hashmap ({'1':3,'2':1} becomes [['1',3],['2',1]])
-    const numCounterInArr = Object.entries(numCounter);
-    // sort arr in desc order, by index [1] which is num of occurences
-    const sortedArr = numCounterInArr.sort((a,b) => b[1] - a[1])
-    // grab top K elems from sorted arr
-    const topKElem = sortedArr.slice(0, k)
-    // extract just num from arr of arrs and convert from 'string' to number
-    const topKArr = topKElem.map((pairs) => Number(pairs[0]))
-    // return Top K Frequent Elements
-    return topKArr;
+    // create buckets for the counts
+    // nums.length + 1 because max frequency = nums.length
+    // a number can appear at most nums.length times
+    // buckets = [[], [], [], [], [], [], []]
+    //            0   1   2   3   4   5   6  ← index = frequency
+    const buckets = [];
+    for (let i = 0; i < nums.length + 1; i++) buckets.push([]);
+    // push numCounter hashmap elements into buckets
+    for (const [num, count] of Object.entries(numCounter)) {
+        buckets[count].push(Number(num));
+    }
+    // collect k elements
+    const result = [];
+    // read right to left = highest frequency first
+    for (let i = buckets.length - 1; i >= 0 && result.length < k; i--) {
+        // spread operator ... unpacks the bucket array into result
+        result.push(...buckets[i]);
+    }
+    return result.slice(0, k);
 };
