@@ -156,3 +156,169 @@ CREATE TABLE job(
 	job_name VARCHAR(200) UNIQUE NOT NULL,
 )
 
+
+
+--- INSERT: pgAdmin practice
+-- INSERT allows you to add in rows to a table.
+
+INSERT INTO table (column1, column2, ...)
+VALUES
+	(value1, value2, ...),
+	(value1, value2, ...), ...;
+
+INSERT INTO account(username, password, email, created_on)
+VALUES
+	('Jose', 'password', 'jose@mail.com', CURRENT_TIMESTAMP)
+
+INSERT INTO job(job_name)
+VALUES ('Astronaut')
+
+INSERT INTO job(job_name)
+VALUES ('President')
+
+INSERT INTO account_job(user_id, job_id, hire_date)
+VALUES
+	(1,1,CURRENT_TIMESTAMP)
+
+INSERT INTO account_job(user_id, job_id, hire_date)
+VALUES
+--ERROR:  insert or update on table "account_job" violates foreign key constraint 
+--Key (user_id)=(10) is not present in table "account". 
+	(10,10,CURRENT_TIMESTAMP)
+
+
+
+--- UPDATE:
+UPDATE table
+SET column1 = value1,
+	column2 = value2, ....
+WHERE condition;
+
+UPDATE account
+SET last_login = CURRENT_TIMESTAMP;
+
+UPDATE account
+SET last_login = created_on;
+
+-- Updating based on the results of another table
+UPDATE account_job
+SET hire_date = account.created_on
+FROM account
+WHERE account_job.user_id = account.user_id;
+
+UPDATE account
+SET last_login = CURRENT_TIMESTAMP
+RETURNING email, created_on, last_login;
+
+
+
+--- DELETE:
+-- We can use the delete clause to remove a row from a table
+DELETE FROM tableA
+USING tableB
+WHERE tableA.id=TableB.id
+
+DELETE FROM job
+WHERE job_name = 'Cowboy'
+RETURNING job_id, job_name;
+
+
+/*
+--- ALTER:
+The ALTER clause allows for changes to an existing table structure, such as:
+○ Adding, dropping, or renaming columns
+○ Changing a column's data type
+○ Set DEFAULT values for a column
+○ Add CHECK constraints
+○ Rename table
+
+General Syntax
+ALTER TABLE table_name action
+
+Alter constraints
+
+○ ALTER TABLE table_name
+ALTER COLUMN col_name
+SET DEFAULT value
+*/
+CREATE TABLE infomation(
+	info_id SERIAL PRIMARY KEY, 
+	title VARCHAR(500) NOT NULL, 
+	person VARCHAR(50) NOT NULL UNIQUE
+);
+
+ALTER TABLE infomation
+RENAME TO new_info
+
+ALTER TABLE new_info
+RENAME COLUMN person TO people
+
+ALTER TABLE new_info
+ALTER COLUMN people DROP NOT NULL -- remove a constraint
+
+
+/*
+--- DROP
+DROP allows for the complete removal of a column in a table.
+
+In PostgreSQL this will also automatically remove all of its indexes 
+and constraints involving the column.
+
+However, it will not remove columns used in views, triggers, or stored 
+procedures without the additional CASCADE clause.
+
+General Syntax
+
+○ ALTER TABLE table_name
+DROP COLUMN col_name
+
+Check for existence to avoid error
+○ ALTER TABLE table_name
+DROP COLUMN IF EXISTS col_name
+
+Drop multiple columns
+○ ALTER TABLE table_name
+DROP COLUMN col_one,
+DROP COLUMN col_two
+*/
+
+-- ALTER TABLE table_name DROP COLUMN IF EXISTS col_name
+ALTER TABLE new_info
+DROP COLUMN IF EXISTS people
+
+
+/*
+--- CHECK
+The CHECK constraint allows us to create more customized constraints that 
+adhere to a certain condition.
+
+Such as making sure all inserted integer values fall below a certain threshold.
+
+General Syntax
+
+○ CREATE TABLE example(
+ex_id SERIAL PRIMARY KEY,
+age SMALLINT CHECK (age > 21),
+parent_age SMALLINT CHECK (
+parent_age > age)
+);
+*/
+-- CHECK constraints
+CREATE TABLE employees(
+	emp_id SERIAL PRIMARY KEY, 
+	first_name VARCHAR(50) NOT NULL, 
+	last_name VARCHAR(50) NOT NULL, 
+	birthdate DATE CHECK (birthdate > '1900-01-01'), 
+	hire_date DATE CHECK (hire_date > birthdate), 
+	salary INTEGER CHECK (salary > 0)
+);
+
+INSERT INTO employees(
+	first_name, 
+	last_name, 
+	birthdate, 
+	hire_date, 
+	salary
+) 
+VALUES 
+	('Leonardo', 'Cesar', '1899-11-03', '2010-01-01', 100)
