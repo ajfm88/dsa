@@ -42,23 +42,23 @@ By the end, we hope you will be able to have a strong foundation for using SQL i
 
 ## Progress
 
-| #   | Lesson                              | Status                                                                       |
-| --- | ----------------------------------- | ---------------------------------------------------------------------------- |
-| 01  | SELECT queries 101                  | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/01-select-queries-101) |
-| 02  | Queries with constraints (Pt. 1)    | ⬜                                                                           |
-| 03  | Queries with constraints (Pt. 2)    | ⬜                                                                           |
-| 04  | Filtering and sorting Query results | ⬜                                                                           |
-| 05  | Review: Simple SELECT Queries       | ⬜                                                                           |
-| 06  | Multi-table queries with JOINs      | ⬜                                                                           |
-| 07  | OUTER JOINs                         | ⬜                                                                           |
-| 08  | A short note on NULLs               | ⬜                                                                           |
-| 09  | Queries with expressions            | ⬜                                                                           |
-| 10  | Queries with aggregates (Pt. 1)     | ⬜                                                                           |
-| 11  | Queries with aggregates (Pt. 2)     | ⬜                                                                           |
-| 12  | Order of execution of a Query       | ⬜                                                                           |
-| 13  | Inserting rows                      | ⬜                                                                           |
-| 14  | Updating rows                       | ⬜                                                                           |
-| 15  | Deleting rows                       | ⬜                                                                           |
-| 16  | Creating tables                     | ⬜                                                                           |
-| 17  | Altering tables                     | ⬜                                                                           |
-| 18  | Dropping tables                     | ⬜                                                                           |
+| #   | Lesson                              | Status                                                                               |
+| --- | ----------------------------------- | ------------------------------------------------------------------------------------ |
+| 01  | SELECT queries 101                  | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/01-select-queries-101)         |
+| 02  | Queries with constraints (Pt. 1)    | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/02-queries-w-constraints-pt-1) |
+| 03  | Queries with constraints (Pt. 2)    | ⬜                                                                                   |
+| 04  | Filtering and sorting Query results | ⬜                                                                                   |
+| 05  | Review: Simple SELECT Queries       | ⬜                                                                                   |
+| 06  | Multi-table queries with JOINs      | ⬜                                                                                   |
+| 07  | OUTER JOINs                         | ⬜                                                                                   |
+| 08  | A short note on NULLs               | ⬜                                                                                   |
+| 09  | Queries with expressions            | ⬜                                                                                   |
+| 10  | Queries with aggregates (Pt. 1)     | ⬜                                                                                   |
+| 11  | Queries with aggregates (Pt. 2)     | ⬜                                                                                   |
+| 12  | Order of execution of a Query       | ⬜                                                                                   |
+| 13  | Inserting rows                      | ⬜                                                                                   |
+| 14  | Updating rows                       | ⬜                                                                                   |
+| 15  | Deleting rows                       | ⬜                                                                                   |
+| 16  | Creating tables                     | ⬜                                                                                   |
+| 17  | Altering tables                     | ⬜                                                                                   |
+| 18  | Dropping tables                     | ⬜                                                                                   |
