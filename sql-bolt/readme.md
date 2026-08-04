@@ -46,7 +46,7 @@ By the end, we hope you will be able to have a strong foundation for using SQL i
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------ |
 | 01  | SELECT queries 101                  | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/01-select-queries-101)         |
 | 02  | Queries with constraints (Pt. 1)    | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/02-queries-w-constraints-pt-1) |
-| 03  | Queries with constraints (Pt. 2)    | ⬜                                                                                   |
+| 03  | Queries with constraints (Pt. 2)    | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/03-queries-w-constraints-pt-2) |
 | 04  | Filtering and sorting Query results | ⬜                                                                                   |
 | 05  | Review: Simple SELECT Queries       | ⬜                                                                                   |
 | 06  | Multi-table queries with JOINs      | ⬜                                                                                   |
