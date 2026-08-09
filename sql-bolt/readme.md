@@ -42,23 +42,69 @@ By the end, we hope you will be able to have a strong foundation for using SQL i
 
 ## Progress
 
-| #   | Lesson                              | Status                                                                               |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------ |
-| 01  | SELECT queries 101                  | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/01-select-queries-101)         |
-| 02  | Queries with constraints (Pt. 1)    | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/02-queries-w-constraints-pt-1) |
-| 03  | Queries with constraints (Pt. 2)    | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/03-queries-w-constraints-pt-2) |
-| 04  | Filtering and sorting Query results | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/04-filtering-and-sorting)      |
-| 05  | Review: Simple SELECT Queries       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/05-simple-select-queries)      |
-| 06  | Multi-table queries with JOINs      | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/06-multi-table-queries)        |
-| 07  | OUTER JOINs                         | ⬜                                                                                   |
-| 08  | A short note on NULLs               | ⬜                                                                                   |
-| 09  | Queries with expressions            | ⬜                                                                                   |
-| 10  | Queries with aggregates (Pt. 1)     | ⬜                                                                                   |
-| 11  | Queries with aggregates (Pt. 2)     | ⬜                                                                                   |
-| 12  | Order of execution of a Query       | ⬜                                                                                   |
-| 13  | Inserting rows                      | ⬜                                                                                   |
-| 14  | Updating rows                       | ⬜                                                                                   |
-| 15  | Deleting rows                       | ⬜                                                                                   |
-| 16  | Creating tables                     | ⬜                                                                                   |
-| 17  | Altering tables                     | ⬜                                                                                   |
-| 18  | Dropping tables                     | ⬜                                                                                   |
+| #   | Lesson                              | Status                                                                                    |
+| --- | ----------------------------------- | ----------------------------------------------------------------------------------------- |
+| 01  | SELECT queries 101                  | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/01-select-queries-101)              |
+| 02  | Queries with constraints (Pt. 1)    | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/02-queries-w-constraints-pt-1)      |
+| 03  | Queries with constraints (Pt. 2)    | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/03-queries-w-constraints-pt-2)      |
+| 04  | Filtering and sorting Query results | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/04-filtering-and-sorting)           |
+| 05  | Review: Simple SELECT Queries       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/05-simple-select-queries)           |
+| 06  | Multi-table queries with JOINs      | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/06-multi-table-queries)             |
+| 07  | OUTER JOINs                         | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/07-select-queries-with-outer-joins) |
+| 08  | A short note on NULLs               | ⬜                                                                                        |
+| 09  | Queries with expressions            | ⬜                                                                                        |
+| 10  | Queries with aggregates (Pt. 1)     | ⬜                                                                                        |
+| 11  | Queries with aggregates (Pt. 2)     | ⬜                                                                                        |
+| 12  | Order of execution of a Query       | ⬜                                                                                        |
+| 13  | Inserting rows                      | ⬜                                                                                        |
+| 14  | Updating rows                       | ⬜                                                                                        |
+| 15  | Deleting rows                       | ⬜                                                                                        |
+| 16  | Creating tables                     | ⬜                                                                                        |
+| 17  | Altering tables                     | ⬜                                                                                        |
+| 18  | Dropping tables                     | ⬜                                                                                        |
+
+## SQL Clause Order Mnemonics
+
+### Basic Query
+
+**S**tart **F**riday **W**ith **G**randma's **H**omemade **O**atmeal
+
+| Letter | Clause   |
+| ------ | -------- |
+| **S**  | SELECT   |
+| **F**  | FROM     |
+| **W**  | WHERE    |
+| **G**  | GROUP BY |
+| **H**  | HAVING   |
+| **O**  | ORDER BY |
+
+### With JOINs and LIMIT
+
+**S**tart **F**riday, **J**oin **W**ith **G**randma's **H**omemade **O**atmeal **L**ater
+
+| Letter | Clause    |
+| ------ | --------- |
+| **S**  | SELECT    |
+| **F**  | FROM      |
+| **J**  | JOIN … ON |
+| **W**  | WHERE     |
+| **G**  | GROUP BY  |
+| **H**  | HAVING    |
+| **O**  | ORDER BY  |
+| **L**  | LIMIT     |
+
+### Full Query (with OFFSET)
+
+**S**tart **F**riday, **J**oin **W**ith **G**randma's **H**omemade **O**atmeal — **L**ots **O**f it
+
+| Letter | Clause    |
+| ------ | --------- |
+| **S**  | SELECT    |
+| **F**  | FROM      |
+| **J**  | JOIN … ON |
+| **W**  | WHERE     |
+| **G**  | GROUP BY  |
+| **H**  | HAVING    |
+| **O**  | ORDER BY  |
+| **L**  | LIMIT     |
+| **O**  | OFFSET    |
