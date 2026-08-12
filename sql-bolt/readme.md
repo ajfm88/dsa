@@ -53,7 +53,7 @@ By the end, we hope you will be able to have a strong foundation for using SQL i
 | 07  | OUTER JOINs                         | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/07-select-queries-with-outer-joins) |
 | 08  | A short note on NULLs               | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/08-select-queries-with-nulls)       |
 | 09  | Queries with expressions            | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/09-select-queries-with-expressions) |
-| 10  | Queries with aggregates (Pt. 1)     | ⬜                                                                                        |
+| 10  | Queries with aggregates (Pt. 1)     | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/10-select-queries-with-aggregates)  |
 | 11  | Queries with aggregates (Pt. 2)     | ⬜                                                                                        |
 | 12  | Order of execution of a Query       | ⬜                                                                                        |
 | 13  | Inserting rows                      | ⬜                                                                                        |
