@@ -55,7 +55,7 @@ By the end, we hope you will be able to have a strong foundation for using SQL i
 | 09  | Queries with expressions            | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/09-select-queries-with-expressions)     |
 | 10  | Queries with aggregates (Pt. 1)     | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/10-select-queries-with-aggregates)      |
 | 11  | Queries with aggregates (Pt. 2)     | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/11-select-queries-with-aggregates-pt-2) |
-| 12  | Order of execution of a Query       | ⬜                                                                                            |
+| 12  | Order of execution of a Query       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/12-select-queries-order-of-execution)   |
 | 13  | Inserting rows                      | ⬜                                                                                            |
 | 14  | Updating rows                       | ⬜                                                                                            |
 | 15  | Deleting rows                       | ⬜                                                                                            |
