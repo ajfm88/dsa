@@ -58,7 +58,7 @@ By the end, we hope you will be able to have a strong foundation for using SQL i
 | 12  | Order of execution of a Query       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/12-select-queries-order-of-execution)   |
 | 13  | Inserting rows                      | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/13-inserting-rows)                      |
 | 14  | Updating rows                       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/14-updating-rows)                       |
-| 15  | Deleting rows                       | ⬜                                                                                            |
+| 15  | Deleting rows                       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/15-deleting-rows)                       |
 | 16  | Creating tables                     | ⬜                                                                                            |
 | 17  | Altering tables                     | ⬜                                                                                            |
 | 18  | Dropping tables                     | ⬜                                                                                            |
