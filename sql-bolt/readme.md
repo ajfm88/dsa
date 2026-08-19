@@ -60,7 +60,7 @@ By the end, we hope you will be able to have a strong foundation for using SQL i
 | 14  | Updating rows                       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/14-updating-rows)                       |
 | 15  | Deleting rows                       | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/15-deleting-rows)                       |
 | 16  | Creating tables                     | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/16-creating-tables)                     |
-| 17  | Altering tables                     | ⬜                                                                                            |
+| 17  | Altering tables                     | [✅](https://github.com/ajfm88/dsa/tree/main/sql-bolt/17-altering-tables)                     |
 | 18  | Dropping tables                     | ⬜                                                                                            |
 
 ## SQL Clause Order Mnemonics
